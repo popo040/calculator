@@ -1,0 +1,88 @@
+#cal{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+#mainContainer{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    border: solid;
+    border-color: black;
+    width: 35vw;
+    height: 38vw;
+    background-color:rgb(140, 170, 196);
+    box-shadow: 0.23vw 0.6vw black;
+    border-radius: 3%;
+}
+#display{
+    border:solid;
+    border-color:black;
+    border-radius: 2%;
+    margin-top: 2vw;
+    margin-left: 1.2vw;
+    width: 32vw;
+    height: 5vw;
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+    /* box-shadow: 5px 5px black; */
+}
+.funcbtn{
+    width: 15.5vw;
+    height: 6vw;
+    margin-top: 2vw;
+    margin-left:1.2vw;
+    border-radius: 6%;
+    border-color: hotpink;
+    border-width: 0.2vw;
+    font-size: 2vw;
+    /* box-shadow: 5px 10px 5px 10px black;; */
+}
+#clear{
+    background-color: rgb(238, 231, 132);
+}
+#reset{
+    background-color: rgb(182, 219, 95);
+}
+#digits{
+    margin-top: 2vw;
+    margin-left:1.2vw ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1vw;
+    height: 19vw;
+    width: 32.4vw;
+}
+#num{
+    display: flex;
+    justify-content: center;
+    /* border-color: black;
+    border: solid; */
+    
+}
+.btn{
+    width: 7.3vw;
+    height: 4vw;
+    border:solid;
+    font-size: 2vw;
+}
+.btnOperator{
+    width: 7.3vw;
+    height: 4vw;
+    border:solid;
+    font-size: 2vw;
+}
+.btnEqualsTo{
+    width: 7.3vw;
+    height: 4vw;
+    border:solid;
+    font-size: 2vw;
+}
+.btnDec{
+    width: 7.3vw;
+    height: 4vw;
+    border:solid;
+    font-size: 2vw;
+}
